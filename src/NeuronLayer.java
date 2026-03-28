@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class NeuronLayer<T extends Trainable> {
-    private Map<String, Neuron> neurons = new LinkedHashMap<>();
+    protected Map<String, Neuron> neurons = new LinkedHashMap<>();
     private List<String> classes = new ArrayList<>();
     private int inputSize = 0;
     private double learningRate = 0.25; 

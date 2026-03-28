@@ -11,7 +11,7 @@ public class Main {
 
     static NeuronLayer<Iris> layer;
 
-    static int iterationNumber = 100;
+    static int iterationNumber = 500;
 
     public static void main(String[] args) {
         getData();
